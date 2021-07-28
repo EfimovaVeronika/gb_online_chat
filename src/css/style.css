@@ -1,0 +1,23 @@
+.root {
+    -fx-font-size: 18;
+}
+
+.button {
+    -fx-border-color: aquamarine;
+    -fx-background-color: silver;
+    -fx-font-weight: bold;
+}
+
+.button:hover {
+-fx-border-color: red;
+    -fx-background-color: darkgray;
+    -fx-text-fill: aliceblue;
+}
+
+.text-area {
+    -fx-background-color: black;
+    -fx-control-inner-background: #cecece;
+    -fx-highlight-text-fill: white;
+    -fx-highlight-fill: black;
+    -fx-opacity: 1;
+}

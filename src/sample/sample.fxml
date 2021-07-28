@@ -1,0 +1,33 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import java.net.URL?>
+<BorderPane fx:controller="sample.Controller"
+            xmlns:fx="http://javafx.com/fxml" >
+<stylesheets>
+    <URL value="@/css/style.css"/>
+</stylesheets>
+
+    <center>
+        <TextArea fx:id="textArea" editable="false"/>
+
+    </center>
+
+<bottom>
+   <HBox>
+       <Button text="Send Message"  onAction="#sendMessage"/>
+       <TextField fx:id="textField"  onAction="#sendMessage" prefWidth="300"/>
+   </HBox>
+</bottom>
+
+
+    </BorderPane>
+
+
+
